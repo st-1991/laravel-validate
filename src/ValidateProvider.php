@@ -1,9 +1,9 @@
 <?php
 
-namespace SunTao;
+namespace LaravelValidate;
 
 use Illuminate\Support\ServiceProvider;
-use SunTao\commands\MakeValidateCommand;
+use LaravelValidate\commands\MakeValidateCommand;
 
 class ValidateProvider extends ServiceProvider
 {

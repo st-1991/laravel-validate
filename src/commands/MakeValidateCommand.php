@@ -1,6 +1,6 @@
 <?php
 
-namespace SunTao\commands;
+namespace LaravelValidate\commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace SunTao\Facades;
+namespace LaravelValidate\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

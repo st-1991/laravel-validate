@@ -2,7 +2,7 @@
 
 namespace %s;
 
-use SunTao\Validate\ValidateInterface;
+use LaravelValidate\Validate\ValidateInterface;
 
 class %s implements ValidateInterface
 {

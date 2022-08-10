@@ -1,12 +1,12 @@
 <?php
 
-namespace SunTao;
+namespace LaravelValidate;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use SunTao\exceptions\ValidateException;
-use SunTao\Validate\ValidateInterface;
-use SunTao\Validate\ValidateValues;
+use LaravelValidate\exceptions\ValidateException;
+use LaravelValidate\Validate\ValidateInterface;
+use LaravelValidate\Validate\ValidateValues;
 
 class ValidateService
 {

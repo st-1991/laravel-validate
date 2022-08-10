@@ -1,6 +1,6 @@
 <?php
 
-namespace SunTao\exceptions;
+namespace LaravelValidate\exceptions;
 
 class ValidateException extends \Exception
 {

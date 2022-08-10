@@ -1,6 +1,6 @@
 <?php
 
-namespace SunTao\Validate;
+namespace LaravelValidate\Validate;
 
 interface ValidateInterface
 {
