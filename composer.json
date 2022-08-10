@@ -1,0 +1,20 @@
+{
+    "name": "suntao/laravel-validate",
+    "description": "laravel 验证器",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LaravelValidate\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suntao",
+            "email": "suntao@weiche.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}

@@ -1,0 +1,18 @@
+<?php
+
+namespace %s;
+
+use SunTao\Validate\ValidateInterface;
+
+class %s implements ValidateInterface
+{
+    public function rules():array
+    {
+        return  [];
+    }
+
+    public function messages():array
+    {
+        return [];
+    }
+}
