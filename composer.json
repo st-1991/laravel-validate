@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "LaravelValidate\\": "src/"
+            "SunTao\\LaravelValidate\\": "src/"
         }
     },
     "license": "MIT",
