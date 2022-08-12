@@ -22,11 +22,22 @@ class ValidateValues
             $ignore_params = array_merge($ignore_params, config('validate.ignore_params'));
         }
         $values = [];
-        foreach (array_keys($this->rules) as $key) {
-            if (in_array($key, $ignore_params)) {
+        foreach ($this->rules as $param => $rule) {
+            if (in_array($param, $ignore_params)) {
                 continue;
             }
-            $values[$key] = $this->validator->getData()[$key] ?? '';
+            if (!isset($this->validator->getData()[$param])) {
+                if (is_array($rule)) {
+                    if (!in_array('required', $rule)) {
+                        continue;
+                    }
+                } else {
+                    if (!strpos('required', $rule)) {
+                        continue;
+                    }
+                }
+            }
+            $values[$param] = $this->validator->getData()[$param] ?? '';
         }
         return $values;
     }
